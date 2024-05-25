@@ -14,13 +14,13 @@ Maux is a Next.js application that integrates the most popular AI language model
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/maux.git
+    git clone git@github.com:xmannii/mauxai.git
     cd maux
     ```
 
 2. **Install dependencies:**
     ```bash
-    npm install
+    pnpm install
     ```
 
 3. **Create a `.env.local` file:**
@@ -29,12 +29,15 @@ Maux is a Next.js application that integrates the most popular AI language model
     ```
     Add your environment variables to `.env.local`:
     ```
-    VERCEL_AI_API_KEY=your_vercel_ai_api_key
+   adjust the api keys based on the models you want to use. 
+   OPENAI_API_KEY=YOUR-KEY
+   GOOGLE_GENERATIVE_AI_API_KEY=YOUR-KEY
+   GROQ_API_KEY=YOUR-KEY
     ```
 
 4. **Run the development server:**
     ```bash
-    npm run dev
+    pnpm dev
     ```
 
 5. **Open your browser:**
@@ -68,11 +71,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 - [Next.js](https://nextjs.org/)
-- [Vercel AI SDK](https://vercel.com/docs/ai)
+- [Vercel AI SDK](https://sdk.vercel.ai/)
 - All contributors and open-source libraries that made this project possible.
 
 ## Contact
-For questions or feedback, please open an issue in the [GitHub repository](https://github.com/yourusername/maux) or contact us at your-email@example.com.
+For questions or feedback,contact us at mani@maniw.space
 
 ---
 
